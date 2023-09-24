@@ -1,0 +1,221 @@
+:root {
+    --color-brand: #2E2F42;
+    --color-background: #E7E9FC;
+    --color--components: #4D5AE5;
+    --color-main: #434455;
+    --color-primary: #fff;
+    --color-bg-section: #F4F4FD;
+    --color-pressed-stele: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-main);
+    background-color: var(--color-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+
+.logo {
+    color: var(--color--components);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--color-brand);
+}
+
+.nav-link {
+    color: var(--color-brand);
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+    color: var(--color-pressed-stele);
+}
+
+.nav-link:focus {
+    color: var(--color-pressed-stele);
+}
+
+
+.address {
+    font-style: normal;
+}
+
+.address-header {
+    color: var(--color-main);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-header:focus {
+    color: var(--color-pressed-stele);
+}
+
+.address-header:hover {
+    color: var(--color-pressed-stele);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--color-brand);
+}
+
+.hero-title {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    color: var(--color-primary);
+    background-color: var(--color--components);
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-primary);
+    background-color: var(--color-pressed-stele);
+}
+
+.button:focus {
+    background-color: var(--color-pressed-stele);
+}
+
+/* Advantage section */
+
+.advantages-section {
+    background-color: var(--color-primary);
+    color: var(--color-brand);
+}
+
+.hidden-visually {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.advantage-text {
+    color: var(--color-main);
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
+/* Team section */
+
+.section-team {
+    background-color: var(--color-bg-section);
+    color: var(--color-brand);
+}
+
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-item {
+    background-color: var(--color-primary);
+}
+
+.team-name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: var(--color-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio section */
+
+.portfolio-title {
+    color: var(--color-brand);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: var(--color-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--color-brand);
+    color: var(--color-bg-section);
+}
+
+.logo-footer {
+    color: var(--color--components);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-footer-accent {
+    color: var(--color-bg-section);
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
