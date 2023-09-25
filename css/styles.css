@@ -36,7 +36,7 @@ img {
 }
 
 .section {
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .container {
@@ -142,7 +142,7 @@ img {
 }
 
 .hero-inner {
-    padding: 188px 472px 292px;
+    padding: 188px 0 104px;
     background-color: var(--color-brand);
 }
 
@@ -162,6 +162,8 @@ img {
 .hero-action {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 48px 0 188px;
 }
 
 .button {
@@ -225,6 +227,7 @@ img {
     background-color: var(--color-bg-section);
     color: var(--color-brand);
     display: flex;
+    padding: 60px 0;
 }
 
 .team-inner {
@@ -241,7 +244,6 @@ img {
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px
 }
 
 .team-photo {
@@ -250,7 +252,6 @@ img {
 
 .section-item {
     background-color: var(--color-primary);
-    flex-basis: calc((100%-24px) / 4);
 }
 
 .team-name {
@@ -283,11 +284,10 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    flex-basis: calc();
 }
 
-.portfolio-item {
-    flex-basis: calc();
+.portfolio-block {
+    flex-basis: calc((100%-24px) / 3);
 }
 
 .portfolio-title {
@@ -315,6 +315,11 @@ img {
     color: var(--color-bg-section);
 }
 
+.footer-inner {
+    padding: 101.5px 0 100px;
+    display: inline-block;
+}
+
 .logo-footer {
     color: var(--color--components);
     font-family: Raleway, sans-serif;
@@ -323,6 +328,7 @@ img {
     line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-bottom: 17.5px;
 }
 
 .logo-footer-accent {
@@ -334,4 +340,5 @@ img {
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
