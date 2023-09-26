@@ -56,11 +56,6 @@ img {
 
 }
 
-.header-address {
-    display: flex;
-    gap: 40px;
-}
-
 .header-nav {
     display: flex;
     flex-grow: 1;
@@ -117,6 +112,8 @@ img {
 
 .address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .address-header {
