@@ -46,14 +46,15 @@ img {
 }
 
 /* Header */
+.header {
+    border-bottom: 1px solid #E7E9FC
+}
+
 .header-inner {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
     align-items: center;
     gap: 24px;
-    border-bottom: 1px solid #e7e9fc;
-
 }
 
 .header-nav {
@@ -189,8 +190,6 @@ img {
     background-color: var(--color-primary);
     color: var(--color-brand);
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .visually-hidden {
